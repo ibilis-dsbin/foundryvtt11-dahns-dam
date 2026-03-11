@@ -1,0 +1,60 @@
+{
+  "id": "dahns-dam",
+  "title": "Adventure : Daggers at Midnight",
+  "version": "1.0.0",
+  "manifest": "https://github.com/ibilis-dsbin/foundryvtt11-dahns-dam/releases/latest/download/module.json",
+  "download": "https://github.com/ibilis-dsbin/foundryvtt11-dahns-dam/releases/download/1.0.0/module.zip",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "D35E",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Dahn the Indifferent"
+    }
+  ],
+  "packs": [
+    {
+      "name": "scenes",
+      "label": "Scenes",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "system": "D35E",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "npcs",
+      "label": "NPC's",
+      "path": "packs/npcs",
+      "type": "Actor",
+      "system": "D35E",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "journal",
+      "label": "Journal",
+      "path": "packs/journal",
+      "type": "JournalEntry",
+      "system": "D35E",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
